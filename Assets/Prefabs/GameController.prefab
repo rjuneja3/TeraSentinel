@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &385575703714982918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 385575703714982917}
+  - component: {fileID: 385575703714982916}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &385575703714982917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385575703714982918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &385575703714982916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385575703714982918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a079aa4bfd61742b4af54f3c918445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy_1: {fileID: 3375021972518357420, guid: 445cd57a75d142843b7b4ac5f7e15cde, type: 3}
+  Enemy_2: {fileID: 4088253883880143195, guid: c8634dba897a6054c8a8becc72e98097, type: 3}
+  Boss1: {fileID: 7990280378082917144, guid: b91406585cd7a284b8a3a5a8648c2543, type: 3}
+  Boss2: {fileID: 2304273184838473204, guid: 80443964fee5dc640bdf8fe4dd8106c4, type: 3}
+  Boss3: {fileID: 8709532226160358897, guid: 392d0efb70e86da46b6a4f6e63252495, type: 3}
+  Enemy_1Num: 10
+  Enemy_2Num: 10
+  E1list: []
+  E2list: []
+  _e1health: 0
+  _e2health: 0
+  _health: 100
+  _timer: 0
+  healthLabel: {fileID: 798548771430382431, guid: 551b9f97ee9955944a9f9f3a2bf63392,
+    type: 3}
+  timeLabel: {fileID: 7069006687746780234, guid: 51295ccab5783f349b7695a87da67de4,
+    type: 3}
+  TimeLeft: 100
